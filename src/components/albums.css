@@ -1,0 +1,41 @@
+.Albums-album:hover {
+  color: white;
+}
+
+/* https://keithjgrant.com/posts/2017/07/transitioning-gradients/ */
+.Albums-album::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity var(--common-transition-time) linear;
+  background: linear-gradient(
+    to top left,
+    darkslateblue 10%,
+    rgba(229, 46, 113, 0.8) 50%,
+    darkslateblue 90%
+  );
+}
+
+.Albums-album:hover::before {
+  opacity: 1;
+}
+
+.Albums-album:hover .Albums-album-id {
+  opacity: 1;
+}
+
+.Albums-album-id {
+  top: 1rem;
+  right: 1rem;
+  opacity: 0.25;
+  position: absolute;
+}
+
+.Albums-album-title {
+  color: white;
+}

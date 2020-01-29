@@ -1,0 +1,35 @@
+.Photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.Photos-placeholder {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.25);
+  border: 0.5rem solid rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 1440px) {
+  .Photos-placeholder {
+    min-height: 30vh;
+  }
+}
+
+.Photos-placeholder-text {
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    white 0%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+}
