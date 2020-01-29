@@ -1,0 +1,55 @@
+.Photo {
+  position: relative;
+  justify-content: center;
+}
+
+.Photo:hover .Photo-image {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.Photo-image {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: 500%;
+  transition: opacity var(--common-transition-time);
+}
+
+.Photo-image-is-loaded {
+  opacity: 1;
+}
+
+.Photo-title {
+  opacity: 0;
+  color: white;
+  word-break: break-all;
+  transition: opacity var(--common-transition-time);
+}
+
+.Photo:hover .Photo-title {
+  opacity: 1;
+}
+
+.Photo-dismiss {
+  top: 1rem;
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  font-weight: bold;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  transform: translate(25%, -25%);
+  transition: color var(--common-transition-time);
+}
+
+.Photo-dismiss::before {
+  content: 'x';
+  transition: color var(--common-transition-time);
+}
+
+.Photo-dismiss:hover::before {
+  color: white;
+}

@@ -1,0 +1,30 @@
+.Modal-photo {
+  margin: auto;
+}
+
+.Modal-photo img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.Modal-dismiss {
+  top: 1rem;
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  position: absolute;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  transform: translate(25%, -25%);
+}
+
+.Modal-dismiss::before {
+  content: 'x';
+  transition: color var(--common-transition-time);
+}
+
+.Modal-dismiss:hover::before {
+  color: white;
+}
