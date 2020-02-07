@@ -1,15 +1,15 @@
 {
-  "main.css": "/rapyd/static/css/main.d09ee34f.chunk.css",
-  "main.js": "/rapyd/static/js/main.88e901c6.chunk.js",
-  "main.js.map": "/rapyd/static/js/main.88e901c6.chunk.js.map",
-  "static/js/1.248ece00.chunk.js": "/rapyd/static/js/1.248ece00.chunk.js",
-  "static/js/1.248ece00.chunk.js.map": "/rapyd/static/js/1.248ece00.chunk.js.map",
-  "runtime~main.js": "/rapyd/static/js/runtime~main.0a4dea19.js",
-  "runtime~main.js.map": "/rapyd/static/js/runtime~main.0a4dea19.js.map",
-  "static/css/main.d09ee34f.chunk.css.map": "/rapyd/static/css/main.d09ee34f.chunk.css.map",
-  "static/media/pusheencat.png": "/rapyd/static/media/pusheencat.50dbdbc4.png",
-  "static/media/GitHub_Logo_White.png": "/rapyd/static/media/GitHub_Logo_White.064ace47.png",
-  "index.html": "/rapyd/index.html",
-  "precache-manifest.2dfae141df0d0762f6a0af7dbc3b7cd6.js": "/rapyd/precache-manifest.2dfae141df0d0762f6a0af7dbc3b7cd6.js",
-  "service-worker.js": "/rapyd/service-worker.js"
+  "main.css": "/react-gallery/static/css/main.d09ee34f.chunk.css",
+  "main.js": "/react-gallery/static/js/main.f1b8f9b1.chunk.js",
+  "main.js.map": "/react-gallery/static/js/main.f1b8f9b1.chunk.js.map",
+  "static/js/1.248ece00.chunk.js": "/react-gallery/static/js/1.248ece00.chunk.js",
+  "static/js/1.248ece00.chunk.js.map": "/react-gallery/static/js/1.248ece00.chunk.js.map",
+  "runtime~main.js": "/react-gallery/static/js/runtime~main.6a638fed.js",
+  "runtime~main.js.map": "/react-gallery/static/js/runtime~main.6a638fed.js.map",
+  "static/css/main.d09ee34f.chunk.css.map": "/react-gallery/static/css/main.d09ee34f.chunk.css.map",
+  "static/media/pusheencat.png": "/react-gallery/static/media/pusheencat.50dbdbc4.png",
+  "static/media/GitHub_Logo_White.png": "/react-gallery/static/media/GitHub_Logo_White.064ace47.png",
+  "index.html": "/react-gallery/index.html",
+  "precache-manifest.e6645e8c526d531a9ba933eeb3fabb76.js": "/react-gallery/precache-manifest.e6645e8c526d531a9ba933eeb3fabb76.js",
+  "service-worker.js": "/react-gallery/service-worker.js"
 }
