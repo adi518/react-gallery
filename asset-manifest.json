@@ -1,7 +1,7 @@
 {
   "main.css": "/react-gallery/static/css/main.c5e40cbb.chunk.css",
-  "main.js": "/react-gallery/static/js/main.4e4a29c4.chunk.js",
-  "main.js.map": "/react-gallery/static/js/main.4e4a29c4.chunk.js.map",
+  "main.js": "/react-gallery/static/js/main.85365742.chunk.js",
+  "main.js.map": "/react-gallery/static/js/main.85365742.chunk.js.map",
   "static/js/1.e3edfe42.chunk.js": "/react-gallery/static/js/1.e3edfe42.chunk.js",
   "static/js/1.e3edfe42.chunk.js.map": "/react-gallery/static/js/1.e3edfe42.chunk.js.map",
   "runtime~main.js": "/react-gallery/static/js/runtime~main.6a638fed.js",
@@ -10,6 +10,6 @@
   "static/media/pusheencat.png": "/react-gallery/static/media/pusheencat.50dbdbc4.png",
   "static/media/GitHub_Logo_White.png": "/react-gallery/static/media/GitHub_Logo_White.064ace47.png",
   "index.html": "/react-gallery/index.html",
-  "precache-manifest.408317c2a85c6176d2b299faee54cb8e.js": "/react-gallery/precache-manifest.408317c2a85c6176d2b299faee54cb8e.js",
+  "precache-manifest.fd068e5415c24df1bd400efd73b858ca.js": "/react-gallery/precache-manifest.fd068e5415c24df1bd400efd73b858ca.js",
   "service-worker.js": "/react-gallery/service-worker.js"
 }
